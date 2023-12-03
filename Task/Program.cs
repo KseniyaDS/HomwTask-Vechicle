@@ -32,7 +32,7 @@ public class Car : Vehicle
 
 }
 
-public class Truck : Vehicle 
+public class Truck : Vehicle
 {
     protected int capacity;
 
@@ -41,7 +41,7 @@ public class Truck : Vehicle
         this.capacity = capacity;
     }
 
-    public override void DisplayInfo() 
+    public override void DisplayInfo()
     {
         Console.WriteLine($"Это уже грузовик с грузоподъёмностью {capacity}");
     }
